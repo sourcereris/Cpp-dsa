@@ -1,3 +1,0 @@
-﻿  Source.cpp
-D:\GameDev\C++\DSA\GeeksForGeeks problems\Second largest\Second largest\Source.cpp(10,14): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
-  Second largest.vcxproj -> D:\GameDev\C++\DSA\GeeksForGeeks problems\Second largest\x64\Debug\Second largest.exe

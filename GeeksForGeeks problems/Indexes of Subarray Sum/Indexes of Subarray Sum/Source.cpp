@@ -34,10 +34,10 @@ public:
 int main() {
 	puts("Hello World");
 
-	vector<int> arr = { 5, 3, 1, 6, 9, 4, 5, 6, 3, 1, 2 };
+	vector<int> arr = { 5, 3, 1, 6, 9, 4, 5, 6, 3, 1, 2, 3, 1, 6, 9, 4, 5, 6, 3, 1, 2, 3, 1, 6, 9, 4, 5, 6, 3, 1, 2, 3, 1, 6, 9, 4, 5, 6, 3, 1, 2 };
 
 	Solution s;
-	auto res = s.subarraySum(arr, 7);
+	auto res = s.subarraySum(arr, 50);
 
 	for(int i : res)
 		cout << i << " ";

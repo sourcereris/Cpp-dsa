@@ -1,5 +1,0 @@
-﻿  main.cpp
-D:\GameDev\C++\DSA\Stack\Stack\main.cpp(4,6): warning C4326: return type of 'main' should be 'int' instead of 'void'
-  Stack.vcxproj -> D:\GameDev\C++\DSA\Stack\x64\Debug\Stack.exe
-  'pwsh.exe' is not recognized as an internal or external command,
-  operable program or batch file.
