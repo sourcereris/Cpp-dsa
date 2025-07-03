@@ -1,0 +1,7 @@
+.vs/
+>> *.exe
+>> *.pdb
+>> *.ilk
+>> *.idb
+>> x64/Debug/
+>> 
