@@ -1,18 +1,44 @@
 #include <iostream>
 #include <vector>
-
+#include <queue>
 using namespace std;
+/*
 int ropes(vector<int>& arr); 
 void quickSort(vector<int>&, int low, int high);
+*/
+
+int rope(vector<int>&);
 
 int main()
 {
-    std::cout << "Hello World!\n";
     vector<int> arr = {4, 3, 2, 6};
 
-    cout << '\n' << ropes(arr);
+    
+
+    /*cout << '\n' << ropes(arr);*/
 }
 
+int rope(vector<int>& arr) {
+    int res = 0;
+
+    priority_queue<int, vector<int>, greater<int>> pq(arr.begin(), arr.end());
+
+    while (pq.size() != 1) {
+        int one = 0, two = 0;
+        one = pq.top();
+        pq.pop();
+        two = pq.top();
+        pq.pop();
+
+        res += one + two;
+
+        pq.push(one + two);
+    }
+
+    return res;
+}
+
+/*
 int ropes(vector<int>& arr) {
     int size = arr.size();
 
@@ -57,4 +83,4 @@ void quickSort(vector<int>& arr, int low, int high) {
         quickSort(arr, low, pi - 1);
         quickSort(arr, pi + 1, high);
     }
-}
+}*/
