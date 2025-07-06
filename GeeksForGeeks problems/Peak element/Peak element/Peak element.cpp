@@ -8,7 +8,6 @@ int main()
 
     vector<int> arr = {1, 2, 4, 9, 7, 8, 3};
 
-    signed int prev, next;
     for (int i = 0; i < arr.size(); ++i) {
 
         bool onLeft = false, onRight = false;
